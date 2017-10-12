@@ -1,7 +1,7 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="Project 'Grades'" />
-    <option name="defaultScopeName" value="Project 'Grades'" />
-    <option name="SEARCH_SCOPE" value="Project 'Grades'" />
+    <option name="customScope" value="File '.../Palindrome.java - [Grades]'" />
+    <option name="defaultScopeName" value="File '.../Palindrome.java - [Grades]'" />
+    <option name="SEARCH_SCOPE" value="File '.../Palindrome.java - [Grades]'" />
   </component>
 </application>
