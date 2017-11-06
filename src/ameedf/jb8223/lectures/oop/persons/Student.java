@@ -19,4 +19,11 @@ public class Student extends Person {
     public void setAverage(float average) {
         this.average = average;
     }
+
+    @Override
+    public String toString() {
+        return super.toString() +
+                ", collegeName='" + collegeName + '\'' +
+                ", average=" + average;
+    }
 }
