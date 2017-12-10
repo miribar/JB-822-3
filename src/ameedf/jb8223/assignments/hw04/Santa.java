@@ -1,8 +1,7 @@
 package src.ameedf.jb8223.assignments.hw04;
 
-//Has a limited number of toys to deal.
-//When there are no toys to deal, the dealing action will do nothing
-
+/*Has a limited number of toys to deal.
+When there are no toys to deal, the dealing action will do nothing  */
 public class Santa implements Dealer {
     private int numOfToys = 10;
 
