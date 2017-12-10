@@ -1,7 +1,7 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="Open Files" />
-    <option name="defaultScopeName" value="Open Files" />
-    <option name="SEARCH_SCOPE" value="Open Files" />
+    <option name="customScope" value="Directory '.../src/ameedf/jb8223/assignments/hw04 - [Exercises]'" />
+    <option name="defaultScopeName" value="Directory '.../src/ameedf/jb8223/assignments/hw04 - [Exercises]'" />
+    <option name="SEARCH_SCOPE" value="Directory '.../src/ameedf/jb8223/assignments/hw04 - [Exercises]'" />
   </component>
 </application>
