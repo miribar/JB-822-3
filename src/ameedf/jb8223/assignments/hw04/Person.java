@@ -3,7 +3,6 @@ package src.ameedf.jb8223.assignments.hw04;
 import java.util.Random;
 
 public class Person {
-
     private final int id;
     private String name;
 
@@ -13,7 +12,7 @@ public class Person {
         this.name = name;
     }
 
-    public int getId() {
+    private int getId() {
         return id;
     }
 

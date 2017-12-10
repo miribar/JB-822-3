@@ -39,7 +39,7 @@ public class Casino {
                 person1, person2, person3
         };
 
-        //creat Dealers list
+        //create Dealers list
         dealersList = new Object[] {
                 cardsDealer, drugsDealer, santaClaus
         };

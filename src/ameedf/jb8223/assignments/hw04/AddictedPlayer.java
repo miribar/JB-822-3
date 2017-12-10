@@ -1,10 +1,6 @@
 package src.ameedf.jb8223.assignments.hw04;
 
-import src.ameedf.jb8223.assignments.hw04.Consumer;
-import src.ameedf.jb8223.assignments.hw04.Player;
-
 public class AddictedPlayer extends Player implements Consumer {
-
     private short amountOfDrugsOwned = 0;
 
     public AddictedPlayer(String name) {
