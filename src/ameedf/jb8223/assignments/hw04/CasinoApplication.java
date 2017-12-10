@@ -1,4 +1,4 @@
-package ameedf.jb8223.assignments.hw04;
+package src.ameedf.jb8223.assignments.hw04;
 
 /**
  * Your mission is to create a Casino.

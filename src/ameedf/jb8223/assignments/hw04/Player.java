@@ -1,4 +1,17 @@
-package ameedf.jb8223.assignments.hw04;
+package src.ameedf.jb8223.assignments.hw04;
 
-public class Player {
+//consumes the cards dealing
+public class Player extends Person implements Consumer {
+
+    protected short amountOfCardsOwned = 0;
+
+    public Player(String name) {
+        super(name);
+    }
+
+    @Override
+    public void consume(boolean drugsSupply) {
+        amountOfCardsOwned += 3;
+        System.out.println("  " + this.getName() + " got " + amountOfCardsOwned + " cards!");
+    }
 }

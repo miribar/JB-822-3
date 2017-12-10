@@ -1,5 +1,5 @@
-package ameedf.jb8223.assignments.hw04;
+package src.ameedf.jb8223.assignments.hw04;
 
 public interface Consumer {
-    void consume();
+    void consume(boolean drugsSupply);
 }

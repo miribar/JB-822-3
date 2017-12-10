@@ -1,4 +1,4 @@
-package ameedf.jb8223.assignments.hw04;
+package src.ameedf.jb8223.assignments.hw04;
 
 /**
  * A place where all entities meet.
@@ -11,32 +11,76 @@ package ameedf.jb8223.assignments.hw04;
  */
 public class Casino {
 
+    private Person person1, person2, person3;
+    private Player player1, player2, player3;
+    private AddictedPlayer addictedPlayer1, addictedPlayer2, addictedPlayer3;
+    private CardsDealer cardsDealer;
+    private DrugsDealer drugsDealer;
+    private Santa santaClaus;
+
+    private Object[] consumersList;
+    private Object[] dealersList;
+
     public void start() {
-        // You can change the code
+        System.out.println("Welcome to the Casino!");
 
-        // 1
         create();
-
-        // 2
         initialize();
-
-        // 3
         testDealerInterface();
-
-        // 4
-        testConsumerInterface();
-
+        //my deal() already calls consume(), so next method not needed
+        //testConsumerInterface();
     }
 
     private void create() {
+        //create Consumers list
+        consumersList = new Object[] {
+                player1, player2, player3,
+                addictedPlayer1, addictedPlayer2, addictedPlayer3,
+                person1, person2, person3
+        };
+
+        //creat Dealers list
+        dealersList = new Object[] {
+                cardsDealer, drugsDealer, santaClaus
+        };
     }
 
     private void initialize() {
+        //initialize Consumers (toys, cards, cards & drugs)
+        person1 = new Person("Adam");
+        person2 = new Person("Eva");
+        person3 = new Person("Kain");
+        consumersList[0] = person1;
+        consumersList[1] = person2;
+        consumersList[2] = person3;
+
+        player1 = new Player("Mark");
+        player2 = new Player("Jemie");
+        player3 = new Player("Steve");
+        consumersList[3] = player1;
+        consumersList[4] = player2;
+        consumersList[5] = player3;
+
+        addictedPlayer1 = new AddictedPlayer("Bob");
+        addictedPlayer2 = new AddictedPlayer("Elane");
+        addictedPlayer3 = new AddictedPlayer("David");
+        consumersList[6] = addictedPlayer1;
+        consumersList[7] = addictedPlayer2;
+        consumersList[8] = addictedPlayer3;
+
+        //initialize Dealers (toys, cards, drugs)
+        cardsDealer = new CardsDealer("Sam");
+        drugsDealer = new DrugsDealer("Johnny");
+        santaClaus = new Santa();
+        dealersList[0] = cardsDealer;
+        dealersList[1] = drugsDealer;
+        dealersList[2] = santaClaus;
     }
 
     private void testDealerInterface() {
-    }
-
-    private void testConsumerInterface() {
+        System.out.println("\nTesting the Dealer & Consumer interface:");
+        for (Object entity : dealersList) {
+            ((Dealer) entity).deal(consumersList);
+        }
     }
 }
