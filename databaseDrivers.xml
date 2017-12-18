@@ -1,5 +1,9 @@
 <application>
   <component name="LocalDatabaseDriverManager" version="163">
+    <driver id="exasol">
+      <artifact name="Exasol" use="true" />
+      <option name="auto-sync" value="true" />
+    </driver>
     <driver id="h2.unified">
       <artifact name="H2" use="true" />
       <option name="auto-sync" value="true" />
@@ -7,6 +11,7 @@
     <driver id="azure.ms">
       <artifact name="SQL Server" use="true" />
       <option name="auto-sync" value="false" />
+      <option name="send-app-info" value="false" />
     </driver>
     <driver id="oracle">
       <artifact name="Oracle" use="true" />
@@ -53,8 +58,10 @@
       <option name="auto-sync" value="false" />
     </driver>
     <driver id="sqlserver.ms">
-      <artifact name="SQL Server" use="true" />
+      <artifact name="SQL Server" use="true" version="6.0.8112.100" />
       <option name="auto-sync" value="true" />
+      <option name="send-app-info" value="false" />
+      <option name="auto-commit" value="true" />
     </driver>
     <driver id="db2.jtopen">
       <artifact name="JTOpen (DB2 iSeries)" use="true" />
