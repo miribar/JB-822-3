@@ -1,6 +1,6 @@
-package ameedf.jb8223.lectures.b4test.classes;
+package ameedf.jb8223.lectures.b4test.calc;
 
-public class App {
+public class CalculationApp {
     public static void main(String[] args) {
         // 1
         Calculation calculation = new Calculation(2);
@@ -21,6 +21,5 @@ public class App {
         SimpleCalculation calculation4 = new ComplicatedCalculation(2);
         System.out.println(calculation4.calculate());
         System.out.println("From outside: " + calculation4.parameter);
-
     }
 }

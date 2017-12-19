@@ -1,4 +1,4 @@
-package ameedf.jb8223.lectures.b4test.classes;
+package ameedf.jb8223.lectures.b4test.calc;
 
 public class ComplicatedCalculation extends SimpleCalculation {
     int parameter;
