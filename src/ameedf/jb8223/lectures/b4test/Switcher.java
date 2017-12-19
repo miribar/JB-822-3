@@ -24,9 +24,7 @@ public class Switcher {
 			System.out.println("D " + number);
 			break;
 		}
-		
-		System.out.println(number);
+
+        System.out.println(number);
 	}
-	
-	
 }
