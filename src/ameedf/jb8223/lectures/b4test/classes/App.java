@@ -1,4 +1,4 @@
-package ameedf.jb8223.lectures.b4test.classes;
+package src.ameedf.jb8223.lectures.b4test.classes;
 
 public class App {
     public static void main(String[] args) {
@@ -9,7 +9,9 @@ public class App {
 
         // 2
         Calculation calculation2 = new SimpleCalculation(2);
+        // when calling class methods, the most recent copy of method will be called -> the son's
         System.out.println(calculation2.calculate());
+        // when accessing class params, the object only 'sees' its type -> the father
         System.out.println("From outside: " + calculation2.parameter);
 
         // 3
@@ -22,5 +24,9 @@ public class App {
         System.out.println(calculation4.calculate());
         System.out.println("From outside: " + calculation4.parameter);
 
+        // 5
+        ComplicatedCalculation calculation5 = new ComplicatedCalculation(2);
+        System.out.println(calculation5.calculate());
+        System.out.println("From outside: " + calculation5.parameter);
     }
 }
