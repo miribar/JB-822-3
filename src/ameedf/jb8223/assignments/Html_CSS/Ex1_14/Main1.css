@@ -1,0 +1,29 @@
+#main {
+    width: 65%;
+}
+#first {
+    width: 30%;
+    height: 210px;
+    background-color: lightblue;
+    float: left;
+}
+
+#second {
+    width: 35%;
+    height: 210px;
+    background-color: #c2c2c2;
+    float: left;
+}
+
+#up {
+    width: 65%;
+    height: 25px;
+    background-color: #c6b6cd;
+}
+
+#bottom {
+    width:65%;
+    height: 30px;
+    background-color: #c6b6cd;
+    clear: both;
+}

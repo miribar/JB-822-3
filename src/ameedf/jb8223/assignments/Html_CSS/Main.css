@@ -1,0 +1,23 @@
+.bigFont
+{
+    color: #ec7257 !important;
+    text-align: center;
+    font-family: 'DejaVu Sans', Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: xx-large;
+}
+
+.smallFont
+{
+    color: blueviolet;
+    text-align: right;
+    font-family: 'DejaVu Sans Mono', monospace;
+    font-style: oblique;
+    font-weight: bolder;
+    font-size: small;
+}
+
+body
+{
+    color: blue;
+}
