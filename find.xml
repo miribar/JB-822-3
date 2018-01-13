@@ -1,7 +1,7 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="File '~/Library/Preferences/IntelliJIdea2017.3/consoles/db/d2475d96-d0f0-4700-b419-d6eb41dd9847/console.sql'" />
-    <option name="defaultScopeName" value="File '~/Library/Preferences/IntelliJIdea2017.3/consoles/db/d2475d96-d0f0-4700-b419-d6eb41dd9847/console.sql'" />
-    <option name="SEARCH_SCOPE" value="File '~/Library/Preferences/IntelliJIdea2017.3/consoles/db/d2475d96-d0f0-4700-b419-d6eb41dd9847/console.sql'" />
+    <option name="customScope" value="All Places" />
+    <option name="defaultScopeName" value="All Places" />
+    <option name="SEARCH_SCOPE" value="All Places" />
   </component>
 </application>
