@@ -1,7 +1,7 @@
 1. Click on "New -> Dynamic web project"
     - Call it events
     - Add a tomcat server to your project
-    - Set the configuration to "custom" and, click on "modify" and check the "JAX-RS" flag
+    - Set the configuration to "custom" and, click on "modify" and check the "JAX-RS" flag (2.1)
 2. Unzip the file "events.zip"
 3. Copy the src folder
 4. Copy the WebContent folder
