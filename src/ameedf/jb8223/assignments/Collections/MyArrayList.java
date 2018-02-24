@@ -71,6 +71,7 @@ public class MyArrayList {
         }
     }
 
+    //Prints the ArrayList elements
     public static void printArrayList(String msg, ArrayList<String> myList) {
         System.out.println(msg + myList);
     }
