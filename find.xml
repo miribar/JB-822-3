@@ -1,7 +1,7 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="File '.../application/src/main/java/com/miri/AdminController.java - [application]'" />
-    <option name="defaultScopeName" value="File '.../application/src/main/java/com/miri/AdminController.java - [application]'" />
-    <option name="SEARCH_SCOPE" value="File '.../application/src/main/java/com/miri/AdminController.java - [application]'" />
+    <option name="customScope" value="All Places" />
+    <option name="defaultScopeName" value="All Places" />
+    <option name="SEARCH_SCOPE" value="All Places" />
   </component>
 </application>
